@@ -1,0 +1,62 @@
+.page{
+  padding:20rpx 0;
+  .at-form{
+    padding-right:32rpx;
+  }
+  .at-tag{
+    margin-right:10rpx;
+    margin:0 10rpx 10rpx 0;
+  }
+  .submitButton{
+    margin:20rpx 0;
+  }
+  .pickerWrap{
+    padding:24rpx 0;
+    background-color:#FFF;
+    color:#333;
+    border-bottom:1PX #e2ecf4 solid;
+    .label{
+      margin-right:16rpx;
+      width:172rpx;
+      font-size:32rpx;
+      line-height:1.5;
+      vertical-align:middle;
+      text-align:left;
+      float: left;
+    }
+    .right{
+      margin-left:172rpx;
+      padding-right:18rpx;
+      font-size:32rpx;
+      line-height:1.5;
+      vertical-align:middle;
+      image{
+        margin:10rpx;
+        width:150rpx;
+        height: 150rpx;
+      }
+    };
+  }
+  .requireTip{
+    color:red;
+  }
+  .hide{
+    display: none;
+  }
+  .imageWrap{
+    overflow: hidden;
+  }
+  .imageItem{
+    width:33%;
+    float: left;
+    position: relative;
+    .at-icon{
+      position: absolute;
+      right:0;
+      top:0;
+      background: #f00;
+    }
+  }
+}
+
+
